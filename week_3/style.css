@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* filter: brightness(0%); */
+    /* background-image: url("images/netflix.jpg"); */
+
+    background: linear-gradient( rgba(0, 0, 0, 0.8), 
+                                rgba(0, 0, 0, 0.8) ), 
+                                url('images/netflix.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+nav {
+    /* padding-top: 2px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 150px;
+    /* border: 2px green solid; */
+}
+
+nav .icon {
+    padding: 0;
+    display: block;
+}
+
+nav .icon img {
+    width: 150px;
+}
+
+nav .signIn {
+    width: 80px;
+    border-radius: 7px;
+}
+
+nav .signIn a {
+    display: block;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.05em;
+    padding: 10px 11px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+
+
+.signIn a:hover {
+    background-color: hsla(357, 92%, 47%, 0.9);
+}
+
+.main-section {
+    text-align: center;
+    width: 600px;
+    margin: 100px auto;
+}
+
+.main-section h1 {
+    font-family: "Netflix Sans", Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 3.8em;
+    color: white;
+    font-weight:bolder;
+}
+
+
+.main-section .start-price {
+    font-family: "Netflix Sans", Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1.3em;
+    color: white;
+    margin: 20px 0;
+}
+
+
+.main-section .membership {
+    font-family: "Netflix Sans", Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    margin: 20px 0;
+}
+
+
+
+
+.main-section form .get_started {
+    width: 200px;
+    height: 60px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 11px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+}
+
+.main-section form .get_started:hover {
+    background-color: hsla(357, 92%, 47%, 0.9);
+}
+
+.main-section form .email {
+    height: 60px;
+    width: 390px;
+    background-color: #161010;
+    font-size: 1.2em;
+    border: none;
+    margin-right: 5px;
+    border: 1px solid red;
+}
