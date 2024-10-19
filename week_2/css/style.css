@@ -9,24 +9,18 @@ body {
     background-color: #f2f4f7;
 }
 
-a {
-    text-decoration: none;
+.container {
+    margin-top: 100px;
 }
 
-main {
-    padding: 200px;
-    display: flex;
-    justify-content: space-between;
+a {
+    text-decoration: none;
 }
 
 h1 {
 
     font-size: 4em;
     color: #0866ff;
-}
-
-.leftContent {
-    margin-top: 80px;
 }
 
 #left p {
