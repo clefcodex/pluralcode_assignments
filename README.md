@@ -2,7 +2,7 @@
 
 
 ### Week 1
-https://week1-kix18tsgx-clefcodexs-projects.vercel.app/
+https://week1-nine.vercel.app/
 
 ### Week 2
 https://week2-kappa-lac.vercel.app/
