@@ -10,7 +10,7 @@ body {
 
     background: linear-gradient( rgba(0, 0, 0, 0.8), 
                                 rgba(0, 0, 0, 0.8) ), 
-                                url('images/netflix.jpg');
+                                url('../images/netflix.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -51,8 +51,6 @@ nav .signIn a {
     text-decoration: none;
     border-radius: 7px;
 }
-
-
 
 .signIn a:hover {
     background-color: hsla(357, 92%, 47%, 0.9);
@@ -116,4 +114,39 @@ nav .signIn a {
     border: none;
     margin-right: 5px;
     border: 1px solid red;
+}
+
+
+@media screen and (max-width: 610px) {
+    
+    .main-section{
+        width: 80%;
+    }
+    
+    .main-section h1 {
+        font-size: 2em;
+    }
+
+    header nav #icon {
+        display: none;
+        visibility: hidden;
+    }
+
+    header nav {
+        margin: 20px auto;
+        justify-content: center;
+    }
+
+    .main-section #email, .main-section #get_started {
+        display: inline-block;
+    }
+
+    .main-section #email, .main-section #get_started, header nav, header nav .signIn {
+        width: 80%;
+    }
+
+    .main-section #get_started {
+        margin-top: 20px;
+        text-align: center;
+    }
 }
