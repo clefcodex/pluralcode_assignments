@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.balance, .income-expense {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid red;
+}
+
+.income-expense {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.balance #balance {
+    display: block;
+}
+
+.income #income {
+    display: block;
+    color: green;
+}
+
+.expense #expense {
+    display: block;
+    color: red;
+}
+
+#transactionTtitle, #transactionAmount {
+    width: 330px;
+    height: 25px;
+    margin-bottom: 6px;
+}
+
+#submitBtn {
+    width: 80px;
+    margin-top: 6px;
+    background-color: #1119e9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
