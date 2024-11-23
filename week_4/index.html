@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Expense Tracker</h2>
+
+    <main>
+        <div class="balance">
+            Balance(₦) <span id="balance">0</span>
+        </div>
+        <div class="income-expense">
+            <div class="income">
+                Income(₦) <span id="income">0</span>
+            </div>
+            <div class="expense">
+                Expense(₦) <span id="expense">0</span>
+            </div>
+        </div>
+        <h3>Add Transaction Form</h3>
+        <form>
+            <input 
+                type="text" 
+                required 
+                id="transactionTtitle" 
+                placeholder="Enter Transaction Title">
+            <input 
+                type="number" 
+                required
+                id="transactionAmount"
+                placeholder="Enter Transaction Amount"> <br>
+                
+            <label for="cars">Select Transaction Type:</label>
+            <select name="transactionType" id="transactionType">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <br>
+            <input type="submit" id="submitBtn" />
+        </form>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
