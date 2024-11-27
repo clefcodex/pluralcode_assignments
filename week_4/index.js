@@ -94,12 +94,11 @@ function loadTracker() {
 
 showHistory.addEventListener('click', () => {
 
-    if(contentTable.style.display == "none") {
-        contentTable.style.display = "table";
-        showHistory.textContent = 'Hide Transaction History';
-    } else {
+    if(contentTable.style.display === "table") {
         contentTable.style.display = "none";
         showHistory.textContent = 'Show Transaction History';
+    } else {
+        contentTable.style.display = "table";
+        showHistory.textContent = 'Hide Transaction History';
     }
-    
 })
