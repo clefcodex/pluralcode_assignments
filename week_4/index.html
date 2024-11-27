@@ -21,7 +21,7 @@
                 Expense(₦) <span id="expense">0</span>
             </div>
         </div>
-        <h3>Add Transaction Form</h3>
+        <h3>Add Transaction</h3>
         <form>
             <input 
                 type="text" 
@@ -42,9 +42,28 @@
             <br>
             <input type="submit" id="submitBtn" />
         </form>
-    </main>
+        <hr>
+        <button id="showHistory">Show Transaction History</button>
 
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Amount</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            
+            <tbody id="displayHistory">
+
+            </tbody>
+        </table>
+    </main>
 
     <script src="index.js"></script>
 </body>
 </html>
+
+
+
