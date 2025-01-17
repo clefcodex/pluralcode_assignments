@@ -12,3 +12,6 @@ https://week3-six-lime.vercel.app/
 
 ### Week 4
 https://pluralcode-assignments-ecru.vercel.app/
+
+### Week 5
+https://github.com/clefcodex/pluralcode_assignments/tree/main/week_5
